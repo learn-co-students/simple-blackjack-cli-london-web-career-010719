@@ -47,6 +47,10 @@ def invalid_command
   puts "Please enter a valid command"
 end
 
+def end_game(num)
+puts "Sorry, you hit #{num}. Thanks for playing!"
+end
+
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
@@ -54,6 +58,8 @@ end
 def runner
   welcome()
   initial_round()
-  hit?()
-  display_card_total()
+  until initial_round + hit? <= 21
+    hit?
+  else
+    
 end
