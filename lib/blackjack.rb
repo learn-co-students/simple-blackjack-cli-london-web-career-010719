@@ -38,10 +38,8 @@ def hit?(num)
   if answer == 'h'
     new_card = deal_card + number
   elsif answer != 's' || answer != 'h'
-    
-    
-    
-
+    invalid_command()
+  end
 end
 
 def invalid_command
