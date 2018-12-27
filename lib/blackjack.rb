@@ -29,7 +29,7 @@ def initial_round
   deal_card()
   deal_card()
 end
-display_card_total(deal_card)
+display_card_total(deal_card + deal_card)
 end
 
 def hit?
