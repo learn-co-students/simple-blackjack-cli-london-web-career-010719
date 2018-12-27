@@ -35,11 +35,6 @@ end
 def hit?(num)
   prompt_user()
   get_user_input()
-  if answer == 'h'
-    new_card = deal_card + number
-  elsif answer != 's' || answer != 'h'
-    invalid_command()
-  end
 end
 
 def invalid_command
