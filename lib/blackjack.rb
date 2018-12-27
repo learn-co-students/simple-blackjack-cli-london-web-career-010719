@@ -61,7 +61,5 @@ def runner
   until initial_round + hit? <= 21
     hit?
   else
-  end_game
-end
-end
+  end
 end
