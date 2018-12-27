@@ -28,6 +28,8 @@ def initial_round
   deal_card()
 end
 sum = deal_card() + deal_card()
+x = display_card_total + display_card_total
+puts "Your cards add up to #{x}"
 sum
 end
 
