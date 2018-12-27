@@ -34,7 +34,7 @@ end
 
 def hit?(num)
   prompt_user()
-  answer = get_user_input()
+  get_user_input()
   if answer == 'h'
     new_card = deal_card + number
   elsif answer != 's' || answer != 'h'
