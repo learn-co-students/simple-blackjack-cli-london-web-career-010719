@@ -34,9 +34,11 @@ end
 
 def hit?(num)
   prompt_user()
-  if get_user_input == 'h'
-    new_card = deal_card + num
-  end
+  input = get_user_input
+  if input == 'h'
+      new_card = deal_card + num
+    end
+
 new_card
 end
 
