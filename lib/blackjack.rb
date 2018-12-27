@@ -33,9 +33,7 @@ display_card_total(deal_card + deal_card)
 end
 
 def hit?(num)
-  prompt_user()
-  get_user_input()
-  num
+
 end
 
 def invalid_command
