@@ -33,11 +33,19 @@ display_card_total(deal_card + deal_card)
 end
 
 def hit?(num)
+  prompt_user()
+  answer = get_user_input()
+  if answer == 'h'
+    new_card = deal_card + number
+  elsif answer != 's' || answer != 'h'
+    
+    
+    
 
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
